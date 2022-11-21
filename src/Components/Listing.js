@@ -81,9 +81,9 @@ function Listing() {
           </div>
         </nav>
         <section
-          class="hero-wrap hero-wrap-2"
-          style="background-image: url('assets/images/bg_3.jpg');"
-        >
+  className="hero-wrap hero-wrap-2"
+  style={{ backgroundImage: 'url("assets/images/bg_3.jpg")' }}
+>
           <div class="overlay"></div>
           <div class="container">
             <div class="row no-gutters slider-text align-items-center justify-content-center">
@@ -428,11 +428,11 @@ function Listing() {
                 data-aos-duration="1000"
               >
                 <div class="listing-wrap">
-                  <a
-                    href="images/list-1.jpg"
-                    class="img img-property d-flex align-items-center justify-content-center glightbox"
-                    style="background-image: url(assets/images/list-1.jpg);"
-                  >
+                <a
+  href="images/list-1.jpg"
+  className="img img-property d-flex align-items-center justify-content-center glightbox"
+  style={{ backgroundImage: "url(assets/images/list-1.jpg)" }}
+>
                     <div class="icon d-flex align-items-center justify-content-center">
                       <span class="fa fa-search"></span>
                     </div>
@@ -485,11 +485,11 @@ function Listing() {
                 data-aos-duration="1000"
               >
                 <div class="listing-wrap">
-                  <a
-                    href="images/list-2.jpg"
-                    class="img img-property d-flex align-items-center justify-content-center glightbox"
-                    style="background-image: url(assets/images/list-2.jpg);"
-                  >
+                <a
+  href="images/list-2.jpg"
+  className="img img-property d-flex align-items-center justify-content-center glightbox"
+  style={{ backgroundImage: "url(assets/images/list-2.jpg)" }}
+>
                     <div class="icon d-flex align-items-center justify-content-center">
                       <span class="fa fa-search"></span>
                     </div>
@@ -542,11 +542,11 @@ function Listing() {
                 data-aos-duration="1000"
               >
                 <div class="listing-wrap">
-                  <a
-                    href="images/list-3.jpg"
-                    class="img img-property d-flex align-items-center justify-content-center glightbox"
-                    style="background-image: url(assets/images/list-3.jpg);"
-                  >
+                <a
+  href="images/list-3.jpg"
+  className="img img-property d-flex align-items-center justify-content-center glightbox"
+  style={{ backgroundImage: "url(assets/images/list-3.jpg)" }}
+>
                     <div class="icon d-flex align-items-center justify-content-center">
                       <span class="fa fa-search"></span>
                     </div>
@@ -599,11 +599,11 @@ function Listing() {
                 data-aos-duration="1000"
               >
                 <div class="listing-wrap">
-                  <a
-                    href="images/list-4.jpg"
-                    class="img img-property d-flex align-items-center justify-content-center glightbox"
-                    style="background-image: url(assets/images/list-4.jpg);"
-                  >
+                <a
+  href="images/list-4.jpg"
+  className="img img-property d-flex align-items-center justify-content-center glightbox"
+  style={{ backgroundImage: "url(assets/images/list-4.jpg)" }}
+>
                     <div class="icon d-flex align-items-center justify-content-center">
                       <span class="fa fa-search"></span>
                     </div>
@@ -656,11 +656,11 @@ function Listing() {
                 data-aos-duration="1000"
               >
                 <div class="listing-wrap">
-                  <a
-                    href="images/list-5.jpg"
-                    class="img img-property d-flex align-items-center justify-content-center glightbox"
-                    style="background-image: url(assets/images/list-5.jpg);"
-                  >
+                <a
+  href="images/list-5.jpg"
+  className="img img-property d-flex align-items-center justify-content-center glightbox"
+  style={{ backgroundImage: "url(assets/images/list-5.jpg)" }}
+>
                     <div class="icon d-flex align-items-center justify-content-center">
                       <span class="fa fa-search"></span>
                     </div>
@@ -713,11 +713,11 @@ function Listing() {
                 data-aos-duration="1000"
               >
                 <div class="listing-wrap">
-                  <a
-                    href="images/list-6.jpg"
-                    class="img img-property d-flex align-items-center justify-content-center glightbox"
-                    style="background-image: url(assets/images/list-6.jpg);"
-                  >
+                <a
+  href="images/list-6.jpg"
+  className="img img-property d-flex align-items-center justify-content-center glightbox"
+  style={{ backgroundImage: "url(assets/images/list-6.jpg)" }}
+>
                     <div class="icon d-flex align-items-center justify-content-center">
                       <span class="fa fa-search"></span>
                     </div>
@@ -770,11 +770,11 @@ function Listing() {
                 data-aos-duration="1000"
               >
                 <div class="listing-wrap">
-                  <a
-                    href="images/list-7.jpg"
-                    class="img img-property d-flex align-items-center justify-content-center glightbox"
-                    style="background-image: url(assets/images/list-7.jpg);"
-                  >
+                <a
+  href="images/list-7.jpg"
+  className="img img-property d-flex align-items-center justify-content-center glightbox"
+  style={{ backgroundImage: "url(assets/images/list-7.jpg)" }}
+>
                     <div class="icon d-flex align-items-center justify-content-center">
                       <span class="fa fa-search"></span>
                     </div>
@@ -827,11 +827,11 @@ function Listing() {
                 data-aos-duration="1000"
               >
                 <div class="listing-wrap">
-                  <a
-                    href="images/list-8.jpg"
-                    class="img img-property d-flex align-items-center justify-content-center glightbox"
-                    style="background-image: url(assets/images/list-8.jpg);"
-                  >
+                <a
+  href="images/list-8.jpg"
+  className="img img-property d-flex align-items-center justify-content-center glightbox"
+  style={{ backgroundImage: "url(assets/images/list-8.jpg)" }}
+>
                     <div class="icon d-flex align-items-center justify-content-center">
                       <span class="fa fa-search"></span>
                     </div>
@@ -884,11 +884,11 @@ function Listing() {
                 data-aos-duration="1000"
               >
                 <div class="listing-wrap">
-                  <a
-                    href="images/list-9.jpg"
-                    class="img img-property d-flex align-items-center justify-content-center glightbox"
-                    style="background-image: url(assets/images/list-9.jpg);"
-                  >
+                <a
+  href="images/list-9.jpg"
+  className="img img-property d-flex align-items-center justify-content-center glightbox"
+  style={{ backgroundImage: "url(assets/images/list-9.jpg)" }}
+>
                     <div class="icon d-flex align-items-center justify-content-center">
                       <span class="fa fa-search"></span>
                     </div>
@@ -941,11 +941,11 @@ function Listing() {
                 data-aos-duration="1000"
               >
                 <div class="listing-wrap">
-                  <a
-                    href="images/list-10.jpg"
-                    class="img img-property d-flex align-items-center justify-content-center glightbox"
-                    style="background-image: url(assets/images/list-10.jpg);"
-                  >
+                <a
+  href="images/list-10.jpg"
+  className="img img-property d-flex align-items-center justify-content-center glightbox"
+  style={{ backgroundImage: "url(assets/images/list-10.jpg)" }}
+>
                     <div class="icon d-flex align-items-center justify-content-center">
                       <span class="fa fa-search"></span>
                     </div>
@@ -998,11 +998,11 @@ function Listing() {
                 data-aos-duration="1000"
               >
                 <div class="listing-wrap">
-                  <a
-                    href="images/list-11.jpg"
-                    class="img img-property d-flex align-items-center justify-content-center glightbox"
-                    style="background-image: url(assets/images/list-11.jpg);"
-                  >
+                <a
+  href="images/list-11.jpg"
+  className="img img-property d-flex align-items-center justify-content-center glightbox"
+  style={{ backgroundImage: "url(assets/images/list-11.jpg)" }}
+>
                     <div class="icon d-flex align-items-center justify-content-center">
                       <span class="fa fa-search"></span>
                     </div>
@@ -1055,11 +1055,11 @@ function Listing() {
                 data-aos-duration="1000"
               >
                 <div class="listing-wrap">
-                  <a
-                    href="images/list-12.jpg"
-                    class="img img-property d-flex align-items-center justify-content-center glightbox"
-                    style="background-image: url(assets/images/list-12.jpg);"
-                  >
+                <a
+  href="images/list-12.jpg"
+  className="img img-property d-flex align-items-center justify-content-center glightbox"
+  style={{ backgroundImage: "url(assets/images/list-12.jpg)" }}
+>
                     <div class="icon d-flex align-items-center justify-content-center">
                       <span class="fa fa-search"></span>
                     </div>

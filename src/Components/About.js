@@ -80,9 +80,9 @@ function About() {
         </div>
       </nav>
       <section
-        class="hero-wrap hero-wrap-2"
-        style="background-image: url('images/bg_3.jpg');"
-      >
+  className="hero-wrap hero-wrap-2"
+  style={{ backgroundImage: 'url("images/bg_3.jpg")' }}
+>
         <div class="overlay"></div>
         <div class="container">
           <div class="row no-gutters slider-text align-items-center justify-content-center">
@@ -112,9 +112,9 @@ function About() {
               data-aos-duration="1000"
             >
               <div
-                class="img w-100"
-                style="background-image: url(images/about.jpg);"
-              ></div>
+  className="img w-100"
+  style={{ backgroundImage: "url(images/about.jpg)" }}
+></div>
             </div>
             <div
               class="col-md-7 py-5 heading-section"
@@ -243,10 +243,10 @@ function About() {
                         texts.
                       </p>
                       <div class="d-flex align-items-center">
-                        <div
-                          class="user-img"
-                          style="background-image: url(images/person_1.jpg)"
-                        ></div>
+                      <div
+  className="user-img"
+  style={{ backgroundImage: "url(images/person_1.jpg)" }}
+></div>
                         <div class="pl-3 tx">
                           <p class="name">Roger Scott</p>
                           <span class="position">Marketing Manager</span>
@@ -267,10 +267,10 @@ function About() {
                         texts.
                       </p>
                       <div class="d-flex align-items-center">
-                        <div
-                          class="user-img"
-                          style="background-image: url(images/person_2.jpg)"
-                        ></div>
+                      <div
+  className="user-img"
+  style={{ backgroundImage: "url(images/person_2.jpg)" }}
+></div>
                         <div class="pl-3 tx">
                           <p class="name">Roger Scott</p>
                           <span class="position">Marketing Manager</span>
@@ -291,10 +291,10 @@ function About() {
                         texts.
                       </p>
                       <div class="d-flex align-items-center">
-                        <div
-                          class="user-img"
-                          style="background-image: url(images/person_3.jpg)"
-                        ></div>
+                      <div
+  className="user-img"
+  style={{ backgroundImage: "url(images/person_3.jpg)" }}
+></div>
                         <div class="pl-3 tx">
                           <p class="name">Roger Scott</p>
                           <span class="position">Marketing Manager</span>
@@ -315,10 +315,10 @@ function About() {
                         texts.
                       </p>
                       <div class="d-flex align-items-center">
-                        <div
-                          class="user-img"
-                          style="background-image: url(images/person_1.jpg)"
-                        ></div>
+                      <div
+  className="user-img"
+  style={{ backgroundImage: "url(images/person_1.jpg)" }}
+></div>
                         <div class="pl-3 tx">
                           <p class="name">Roger Scott</p>
                           <span class="position">Marketing Manager</span>
@@ -339,10 +339,10 @@ function About() {
                         texts.
                       </p>
                       <div class="d-flex align-items-center">
-                        <div
-                          class="user-img"
-                          style="background-image: url(images/person_2.jpg)"
-                        ></div>
+                      <div
+  className="user-img"
+  style={{ backgroundImage: "url(images/person_2.jpg)" }}
+></div>
                         <div class="pl-3 tx">
                           <p class="name">Roger Scott</p>
                           <span class="position">Marketing Manager</span>
@@ -360,10 +360,10 @@ function About() {
         <div class="container">
           <div class="row g-0">
             <div class="col-md-4 d-flex align-items-stretch">
-              <div
-                class="img w-100"
-                style="background-image: url(images/intro.jpg);"
-              ></div>
+            <div
+  className="img w-100"
+  style={{ backgroundImage: "url(images/intro.jpg)" }}
+></div>
             </div>
             <div class="col-md-8 aside-stretch aside">
               <div class="row py-md-4">

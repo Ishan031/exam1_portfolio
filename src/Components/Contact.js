@@ -81,9 +81,9 @@ function Contact() {
           </div>
         </nav>
         <section
-          class="hero-wrap hero-wrap-2"
-          style="background-image: url('assets/images/bg_3.jpg');"
-        >
+  className="hero-wrap hero-wrap-2"
+  style={{ backgroundImage: 'url("assets/images/bg_3.jpg")' }}
+>
           <div class="overlay"></div>
           <div class="container">
             <div class="row no-gutters slider-text align-items-center justify-content-center">
@@ -229,10 +229,10 @@ function Contact() {
                       </div>
                     </div>
                     <div class="col-lg-6 d-flex align-items-stretch">
-                      <div
-                        class="img w-100"
-                        style="background-image: url(assets/images/about.jpg);"
-                      ></div>
+                    <div
+  className="img w-100"
+  style={{ backgroundImage: "url(assets/images/about.jpg)" }}
+></div>
                     </div>
                   </div>
                 </div>
