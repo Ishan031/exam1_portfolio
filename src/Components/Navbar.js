@@ -3,16 +3,16 @@ import React from "react";
 function Navbar() {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg  ftco-navbar-light">
-        <div class="container-xl">
-          <a class="navbar-brand d-flex align-items-center" href="index.html">
-            <span class="flaticon flaticon-compass"></span>
-            <span class="">
+      <nav className="navbar navbar-expand-lg  ftco-navbar-light">
+        <div className="container-xl">
+          <a className="navbar-brand d-flex align-items-center" href="index.html">
+            <span className="flaticon flaticon-compass"></span>
+            <span className="">
               Directone <small>Directory and Listing</small>
             </span>
           </a>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-toggle="collapse"
             data-target="#navbarSupportedContent"
@@ -20,39 +20,39 @@ function Navbar() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="fa fa-bars"></span> Menu
+            <span className="fa fa-bars"></span> Menu
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" href="/index.html">
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav m-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                <a className="nav-link active" href="/index.html">
                   Home
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/about.html">
+              <li className="nav-item">
+                <a className="nav-link" href="/about.html">
                   About
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/listing.html">
+              <li className="nav-item">
+                <a className="nav-link" href="/listing.html">
                   Listing
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/blog.html">
+              <li className="nav-item">
+                <a className="nav-link" href="/blog.html">
                   Blog
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/contact.html">
+              <li className="nav-item">
+                <a className="nav-link" href="/contact.html">
                   Contact
                 </a>
               </li>
             </ul>
-            <p class="mb-0">
-              <a href="/" class="btn btn-primary rounded">
-                <span class="ion-ios-add"></span> Add Listing
+            <p className="mb-0">
+              <a href="/" className="btn btn-primary rounded">
+                <span className="ion-ios-add"></span> Add Listing
               </a>
             </p>
           </div>

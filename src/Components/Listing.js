@@ -4,19 +4,19 @@ function Listing() {
   return (
     <div>
       <body>
-        <div class="py-1 top-wrap">
-          <div class="container-xl">
-            <div class="row justify-content-between">
-              <div class="col-md topper d-flex mb-md-0 align-items-xl-center">
-                <div class="text">
-                  <p class="con">
+        <div className="py-1 top-wrap">
+          <div className="container-xl">
+            <div className="row justify-content-between">
+              <div className="col-md topper d-flex mb-md-0 align-items-xl-center">
+                <div className="text">
+                  <p className="con">
                     <span>Free Call</span> <span>+1 234 456 78910</span>
                   </p>
                 </div>
               </div>
-              <div class="col-md topper d-flex mb-md-0 align-items-xl-center">
-                <div class="text text-md-right">
-                  <p class="con">
+              <div className="col-md topper d-flex mb-md-0 align-items-xl-center">
+                <div className="text text-md-right">
+                  <p className="con">
                     <a href="/">Facebook</a> <a href="/">Twitter</a>{" "}
                     <a href="/">Dribbble</a>
                   </p>
@@ -25,16 +25,16 @@ function Listing() {
             </div>
           </div>
         </div>
-        <nav class="navbar navbar-expand-lg  ftco-navbar-light">
-          <div class="container-xl">
-            <a class="navbar-brand d-flex align-items-center" href="index.html">
-              <span class="flaticon flaticon-compass"></span>
-              <span class="">
+        <nav className="navbar navbar-expand-lg  ftco-navbar-light">
+          <div className="container-xl">
+            <a className="navbar-brand d-flex align-items-center" href="index.html">
+              <span className="flaticon flaticon-compass"></span>
+              <span className="">
                 Directone <small>Directory and Listing</small>
               </span>
             </a>
             <button
-              class="navbar-toggler"
+              className="navbar-toggler"
               type="button"
               data-toggle="collapse"
               data-target="#navbarSupportedContent"
@@ -42,112 +42,112 @@ function Listing() {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="fa fa-bars"></span> Menu
+              <span className="fa fa-bars"></span> Menu
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">
+            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul className="navbar-nav m-auto mb-2 mb-lg-0">
+                <li className="nav-item">
+                  <a className="nav-link" href="index.html">
                     Home
                   </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html">
+                <li className="nav-item">
+                  <a className="nav-link" href="about.html">
                     About
                   </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="listing.html">
+                <li className="nav-item">
+                  <a className="nav-link active" href="listing.html">
                     Listing
                   </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="blog.html">
+                <li className="nav-item">
+                  <a className="nav-link" href="blog.html">
                     Blog
                   </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">
+                <li className="nav-item">
+                  <a className="nav-link" href="contact.html">
                     Contact
                   </a>
                 </li>
               </ul>
-              <p class="mb-0">
-                <a href="/" class="btn btn-primary rounded">
-                  <span class="ion-ios-add"></span> Add Listing
+              <p className="mb-0">
+                <a href="/" className="btn btn-primary rounded">
+                  <span className="ion-ios-add"></span> Add Listing
                 </a>
               </p>
             </div>
           </div>
         </nav>
         <section
-  className="hero-wrap hero-wrap-2"
+  classNameName="hero-wrap hero-wrap-2"
   style={{ backgroundImage: 'url("assets/images/bg_3.jpg")' }}
 >
-          <div class="overlay"></div>
-          <div class="container">
-            <div class="row no-gutters slider-text align-items-center justify-content-center">
-              <div class="col-md-9 pt-5 text-center">
-                <p class="breadcrumbs">
-                  <span class="mr-2">
+          <div className="overlay"></div>
+          <div className="container">
+            <div className="row no-gutters slider-text align-items-center justify-content-center">
+              <div className="col-md-9 pt-5 text-center">
+                <p className="breadcrumbs">
+                  <span className="mr-2">
                     <a href="index.html">
-                      Home <i class="fa fa-chevron-right"></i>
+                      Home <i className="fa fa-chevron-right"></i>
                     </a>
                   </span>{" "}
                   <span>
-                    Listing <i class="fa fa-chevron-right"></i>
+                    Listing <i className="fa fa-chevron-right"></i>
                   </span>
                 </p>
-                <h1 class="mb-0 bread">Our Listing</h1>
+                <h1 className="mb-0 bread">Our Listing</h1>
               </div>
             </div>
           </div>
         </section>
-        <section class="ftco-section ftco-no-pb bg-light">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-md-8 mb-5 pb-md-3 heading-section">
-                <div class="text-center w-100">
-                  <h2 class="mb-3">Let's Explore Your Awesome City</h2>
+        <section className="ftco-section ftco-no-pb bg-light">
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-md-8 mb-5 pb-md-3 heading-section">
+                <div className="text-center w-100">
+                  <h2 className="mb-3">Let's Explore Your Awesome City</h2>
                 </div>
-                <form action="#" class="search-property-1 mt-md-4">
-                  <div class="row g-0">
-                    <div class="col-md d-flex">
-                      <div class="form-group p-3 border-0">
-                        <div class="form-field">
-                          <div class="icon">
-                            <span class="fa fa-search"></span>
+                <form action="#" className="search-property-1 mt-md-4">
+                  <div className="row g-0">
+                    <div className="col-md d-flex">
+                      <div className="form-group p-3 border-0">
+                        <div className="form-field">
+                          <div className="icon">
+                            <span className="fa fa-search"></span>
                           </div>
                           <input
                             type="text"
-                            class="form-control"
+                            className="form-control"
                             placeholder="What are you looking for?"
                           />
                         </div>
                       </div>
                     </div>
-                    <div class="col-md d-flex">
-                      <div class="form-group p-3">
-                        <div class="form-field">
-                          <div class="icon">
-                            <span class="ion-ios-pin"></span>
+                    <div className="col-md d-flex">
+                      <div className="form-group p-3">
+                        <div className="form-field">
+                          <div className="icon">
+                            <span className="ion-ios-pin"></span>
                           </div>
                           <input
                             type="text"
-                            class="form-control"
+                            className="form-control"
                             placeholder="Search Location"
                           />
                         </div>
                       </div>
                     </div>
-                    <div class="col-md d-flex">
-                      <div class="form-group p-3">
-                        <div class="form-field">
-                          <div class="select-wrap">
-                            <div class="icon">
-                              <span class="fa fa-chevron-down"></span>
+                    <div className="col-md d-flex">
+                      <div className="form-group p-3">
+                        <div className="form-field">
+                          <div className="select-wrap">
+                            <div className="icon">
+                              <span className="fa fa-chevron-down"></span>
                             </div>
-                            <select name="" id="" class="form-control">
+                            <select name="" id="" className="form-control">
                               <option value="">All Categories</option>
                               <option value="">Food &amp; Drinks</option>
                               <option value="">Hotel</option>
@@ -166,15 +166,15 @@ function Listing() {
                         </div>
                       </div>
                     </div>
-                    <div class="col-md d-flex">
-                      <div class="form-group d-flex w-100 border-0">
-                        <div class="form-field w-100 align-items-center d-flex align-items-stretch">
+                    <div className="col-md d-flex">
+                      <div className="form-group d-flex w-100 border-0">
+                        <div className="form-field w-100 align-items-center d-flex align-items-stretch">
                           <a
                             href="/"
-                            class="btn btn-primary d-block w-100 d-flex align-items-center justify-content-center py-3"
+                            className="btn btn-primary d-block w-100 d-flex align-items-center justify-content-center py-3"
                           >
                             <span>
-                              <i class="ion-ios-search"></i> Search
+                              <i className="ion-ios-search"></i> Search
                             </span>
                           </a>
                         </div>
@@ -184,220 +184,220 @@ function Listing() {
                 </form>
               </div>
             </div>
-            <div class="row g-0">
-              <div class="col-md-12">
-                <div class="row g-3">
+            <div className="row g-0">
+              <div className="col-md-12">
+                <div className="row g-3">
                   <div
-                    class="col-md-4 col-lg-2 text-center d-flex align-items-stretch"
+                    className="col-md-4 col-lg-2 text-center d-flex align-items-stretch"
                     data-aos="fade-up"
                     data-aos-delay="100"
                     data-aos-duration="1000"
                   >
-                    <a href="/" class="services">
-                      <div class="icon">
-                        <span class="flaticon-food-and-drink"></span>
+                    <a href="/" className="services">
+                      <div className="icon">
+                        <span className="flaticon-food-and-drink"></span>
                       </div>
-                      <div class="text">
+                      <div className="text">
                         <h2>Food &amp; Drink</h2>
-                        <p class="list">
+                        <p className="list">
                           <span>103</span> Listings
                         </p>
                       </div>
                     </a>
                   </div>
                   <div
-                    class="col-md-4 col-lg-2 text-center d-flex align-items-stretch"
+                    className="col-md-4 col-lg-2 text-center d-flex align-items-stretch"
                     data-aos="fade-up"
                     data-aos-delay="200"
                     data-aos-duration="1000"
                   >
-                    <a href="/" class="services active">
-                      <div class="icon">
-                        <span class="flaticon-review"></span>
+                    <a href="/" className="services active">
+                      <div className="icon">
+                        <span className="flaticon-review"></span>
                       </div>
-                      <div class="text">
+                      <div className="text">
                         <h2>Hotels</h2>
-                        <p class="list">
+                        <p className="list">
                           <span>40</span> Listings
                         </p>
                       </div>
                     </a>
                   </div>
                   <div
-                    class="col-md-4 col-lg-2 text-center d-flex align-items-stretch"
+                    className="col-md-4 col-lg-2 text-center d-flex align-items-stretch"
                     data-aos="fade-up"
                     data-aos-delay="300"
                     data-aos-duration="1000"
                   >
-                    <a href="/" class="services">
-                      <div class="icon">
-                        <span class="flaticon-online-shopping"></span>
+                    <a href="/" className="services">
+                      <div className="icon">
+                        <span className="flaticon-online-shopping"></span>
                       </div>
-                      <div class="text">
+                      <div className="text">
                         <h2>Shopping</h2>
-                        <p class="list">
+                        <p className="list">
                           <span>100</span> Listings
                         </p>
                       </div>
                     </a>
                   </div>
                   <div
-                    class="col-md-4 col-lg-2 text-center d-flex align-items-stretch"
+                    className="col-md-4 col-lg-2 text-center d-flex align-items-stretch"
                     data-aos="fade-up"
                     data-aos-delay="400"
                     data-aos-duration="1000"
                   >
-                    <a href="/" class="services">
-                      <div class="icon">
-                        <span class="flaticon-cream"></span>
+                    <a href="/" className="services">
+                      <div className="icon">
+                        <span className="flaticon-cream"></span>
                       </div>
-                      <div class="text">
+                      <div className="text">
                         <h2>Beauty</h2>
-                        <p class="list">
+                        <p className="list">
                           <span>36</span> Listings
                         </p>
                       </div>
                     </a>
                   </div>
                   <div
-                    class="col-md-4 col-lg-2 text-center d-flex align-items-stretch"
+                    className="col-md-4 col-lg-2 text-center d-flex align-items-stretch"
                     data-aos="fade-up"
                     data-aos-delay="400"
                     data-aos-duration="1000"
                   >
-                    <a href="/" class="services">
-                      <div class="icon">
-                        <span class="flaticon-diet"></span>
+                    <a href="/" className="services">
+                      <div className="icon">
+                        <span className="flaticon-diet"></span>
                       </div>
-                      <div class="text">
+                      <div className="text">
                         <h2>Fitness</h2>
-                        <p class="list">
+                        <p className="list">
                           <span>30</span> Listings
                         </p>
                       </div>
                     </a>
                   </div>
                   <div
-                    class="col-md-4 col-lg-2 text-center d-flex align-items-stretch"
+                    className="col-md-4 col-lg-2 text-center d-flex align-items-stretch"
                     data-aos="fade-up"
                     data-aos-delay="400"
                     data-aos-duration="1000"
                   >
-                    <a href="/" class="services">
-                      <div class="icon">
-                        <span class="flaticon-night-club"></span>
+                    <a href="/" className="services">
+                      <div className="icon">
+                        <span className="flaticon-night-club"></span>
                       </div>
-                      <div class="text">
+                      <div className="text">
                         <h2>Bar &amp; Club</h2>
-                        <p class="list">
+                        <p className="list">
                           <span>12</span> Listings
                         </p>
                       </div>
                     </a>
                   </div>
                   <div
-                    class="col-md-4 col-lg-2 text-center d-flex align-items-stretch"
+                    className="col-md-4 col-lg-2 text-center d-flex align-items-stretch"
                     data-aos="fade-up"
                     data-aos-delay="100"
                     data-aos-duration="1000"
                   >
-                    <a href="/" class="services">
-                      <div class="icon">
-                        <span class="flaticon-joystick"></span>
+                    <a href="/" className="services">
+                      <div className="icon">
+                        <span className="flaticon-joystick"></span>
                       </div>
-                      <div class="text">
+                      <div className="text">
                         <h2>Games</h2>
-                        <p class="list">
+                        <p className="list">
                           <span>103</span> Listings
                         </p>
                       </div>
                     </a>
                   </div>
                   <div
-                    class="col-md-4 col-lg-2 text-center d-flex align-items-stretch"
+                    className="col-md-4 col-lg-2 text-center d-flex align-items-stretch"
                     data-aos="fade-up"
                     data-aos-delay="200"
                     data-aos-duration="1000"
                   >
-                    <a href="/" class="services">
-                      <div class="icon">
-                        <span class="flaticon-meeting-point"></span>
+                    <a href="/" className="services">
+                      <div className="icon">
+                        <span className="flaticon-meeting-point"></span>
                       </div>
-                      <div class="text">
+                      <div className="text">
                         <h2>Places</h2>
-                        <p class="list">
+                        <p className="list">
                           <span>40</span> Listings
                         </p>
                       </div>
                     </a>
                   </div>
                   <div
-                    class="col-md-4 col-lg-2 text-center d-flex align-items-stretch"
+                    className="col-md-4 col-lg-2 text-center d-flex align-items-stretch"
                     data-aos="fade-up"
                     data-aos-delay="300"
                     data-aos-duration="1000"
                   >
-                    <a href="/" class="services">
-                      <div class="icon">
-                        <span class="flaticon-amusement-park"></span>
+                    <a href="/" className="services">
+                      <div className="icon">
+                        <span className="flaticon-amusement-park"></span>
                       </div>
-                      <div class="text">
+                      <div className="text">
                         <h2>Circus</h2>
-                        <p class="list">
+                        <p className="list">
                           <span>100</span> Listings
                         </p>
                       </div>
                     </a>
                   </div>
                   <div
-                    class="col-md-4 col-lg-2 text-center d-flex align-items-stretch"
+                    className="col-md-4 col-lg-2 text-center d-flex align-items-stretch"
                     data-aos="fade-up"
                     data-aos-delay="400"
                     data-aos-duration="1000"
                   >
-                    <a href="/" class="services">
-                      <div class="icon">
-                        <span class="flaticon-cinema"></span>
+                    <a href="/" className="services">
+                      <div className="icon">
+                        <span className="flaticon-cinema"></span>
                       </div>
-                      <div class="text">
+                      <div className="text">
                         <h2>Theater</h2>
-                        <p class="list">
+                        <p className="list">
                           <span>36</span> Listings
                         </p>
                       </div>
                     </a>
                   </div>
                   <div
-                    class="col-md-4 col-lg-2 text-center d-flex align-items-stretch"
+                    className="col-md-4 col-lg-2 text-center d-flex align-items-stretch"
                     data-aos="fade-up"
                     data-aos-delay="400"
                     data-aos-duration="1000"
                   >
-                    <a href="/" class="services">
-                      <div class="icon">
-                        <span class="flaticon-sport"></span>
+                    <a href="/" className="services">
+                      <div className="icon">
+                        <span className="flaticon-sport"></span>
                       </div>
-                      <div class="text">
+                      <div className="text">
                         <h2>Sports</h2>
-                        <p class="list">
+                        <p className="list">
                           <span>30</span> Listings
                         </p>
                       </div>
                     </a>
                   </div>
                   <div
-                    class="col-md-4 col-lg-2 text-center d-flex align-items-stretch"
+                    className="col-md-4 col-lg-2 text-center d-flex align-items-stretch"
                     data-aos="fade-up"
                     data-aos-delay="400"
                     data-aos-duration="1000"
                   >
-                    <a href="/" class="services">
-                      <div class="icon">
-                        <span class="flaticon-healthy-food"></span>
+                    <a href="/" className="services">
+                      <div className="icon">
+                        <span className="flaticon-healthy-food"></span>
                       </div>
-                      <div class="text">
+                      <div className="text">
                         <h2>Health</h2>
-                        <p class="list">
+                        <p className="list">
                           <span>12</span> Listings
                         </p>
                       </div>
@@ -408,70 +408,70 @@ function Listing() {
             </div>
           </div>
         </section>
-        <section class="ftco-section bg-light">
-          <div class="container">
-            <div class="row justify-content-center">
+        <section className="ftco-section bg-light">
+          <div className="container">
+            <div className="row justify-content-center">
               <div
-                class="col-md-8 heading-section text-center mb-5"
+                className="col-md-8 heading-section text-center mb-5"
                 data-aos="fade-up"
                 data-aos-duration="1000"
               >
-                <span class="subheading">Listing</span>
-                <h2 class="mb-4">Our Listing</h2>
+                <span className="subheading">Listing</span>
+                <h2 className="mb-4">Our Listing</h2>
               </div>
             </div>
-            <div class="row">
+            <div className="row">
               <div
-                class="col-md-6 col-lg-3 d-flex align-items-stretch"
+                className="col-md-6 col-lg-3 d-flex align-items-stretch"
                 data-aos="fade-up"
                 data-aos-delay="100"
                 data-aos-duration="1000"
               >
-                <div class="listing-wrap">
+                <div className="listing-wrap">
                 <a
   href="images/list-1.jpg"
-  className="img img-property d-flex align-items-center justify-content-center glightbox"
+  classNameName="img img-property d-flex align-items-center justify-content-center glightbox"
   style={{ backgroundImage: "url(assets/images/list-1.jpg)" }}
 >
-                    <div class="icon d-flex align-items-center justify-content-center">
-                      <span class="fa fa-search"></span>
+                    <div className="icon d-flex align-items-center justify-content-center">
+                      <span className="fa fa-search"></span>
                     </div>
                   </a>
-                  <div class="text text-center">
-                    <div class="icon d-flex align-items-center justify-content-center">
-                      <span class="flaticon-food-and-drink"></span>
+                  <div className="text text-center">
+                    <div className="icon d-flex align-items-center justify-content-center">
+                      <span className="flaticon-food-and-drink"></span>
                     </div>
-                    <span class="subheading">Food &amp; Drinks</span>
+                    <span className="subheading">Food &amp; Drinks</span>
                     <h3>
                       <a href="/">Japanese Restaurant</a>
                     </h3>
-                    <ul class="">
+                    <ul className="">
                       <li>
                         <p>
-                          <span class="ion-ios-pin"></span> Suite 721 New York
+                          <span className="ion-ios-pin"></span> Suite 721 New York
                           NY 10016
                         </p>
                       </li>
                       <li>
                         <p>
-                          <span class="fa fa-phone"></span> +00 123 456 7890
+                          <span className="fa fa-phone"></span> +00 123 456 7890
                         </p>
                       </li>
                     </ul>
-                    <div class="info-wrap2 d-flex align-items-center">
-                      <p class="review">
-                        <span class="rev">
+                    <div className="info-wrap2 d-flex align-items-center">
+                      <p className="review">
+                        <span className="rev">
                           Review <small>5.0/5</small>
                         </span>{" "}
-                        <span class="ico ion-ios-star"></span>
+                        <span className="ico ion-ios-star"></span>
                         <small>(100)</small>
                       </p>
-                      <p class="heart">
+                      <p className="heart">
                         <a
                           href="/"
-                          class="d-flex align-items-center justify-content-center"
+                          className="d-flex align-items-center justify-content-center"
                         >
-                          <span class="ion-ios-heart-empty"></span>
+                          <span className="ion-ios-heart-empty"></span>
                         </a>
                       </p>
                     </div>
@@ -479,56 +479,56 @@ function Listing() {
                 </div>
               </div>
               <div
-                class="col-md-6 col-lg-3 d-flex align-items-stretch"
+                className="col-md-6 col-lg-3 d-flex align-items-stretch"
                 data-aos="fade-up"
                 data-aos-delay="100"
                 data-aos-duration="1000"
               >
-                <div class="listing-wrap">
+                <div className="listing-wrap">
                 <a
   href="images/list-2.jpg"
-  className="img img-property d-flex align-items-center justify-content-center glightbox"
+  classNameName="img img-property d-flex align-items-center justify-content-center glightbox"
   style={{ backgroundImage: "url(assets/images/list-2.jpg)" }}
 >
-                    <div class="icon d-flex align-items-center justify-content-center">
-                      <span class="fa fa-search"></span>
+                    <div className="icon d-flex align-items-center justify-content-center">
+                      <span className="fa fa-search"></span>
                     </div>
                   </a>
-                  <div class="text text-center">
-                    <div class="icon d-flex align-items-center justify-content-center">
-                      <span class="flaticon-review"></span>
+                  <div className="text text-center">
+                    <div className="icon d-flex align-items-center justify-content-center">
+                      <span className="flaticon-review"></span>
                     </div>
-                    <span class="subheading">Hotel</span>
+                    <span className="subheading">Hotel</span>
                     <h3>
                       <a href="/">Harbor Lights Hotel</a>
                     </h3>
-                    <ul class="">
+                    <ul className="">
                       <li>
                         <p>
-                          <span class="ion-ios-pin"></span> Suite 721 New York
+                          <span className="ion-ios-pin"></span> Suite 721 New York
                           NY 10016
                         </p>
                       </li>
                       <li>
                         <p>
-                          <span class="fa fa-phone"></span> +00 123 456 7890
+                          <span className="fa fa-phone"></span> +00 123 456 7890
                         </p>
                       </li>
                     </ul>
-                    <div class="info-wrap2 d-flex align-items-center">
-                      <p class="review">
-                        <span class="rev">
+                    <div className="info-wrap2 d-flex align-items-center">
+                      <p className="review">
+                        <span className="rev">
                           Review <small>5.0/5</small>
                         </span>{" "}
-                        <span class="ico ion-ios-star"></span>
+                        <span className="ico ion-ios-star"></span>
                         <small>(100)</small>
                       </p>
-                      <p class="heart">
+                      <p className="heart">
                         <a
                           href="/"
-                          class="d-flex align-items-center justify-content-center"
+                          className="d-flex align-items-center justify-content-center"
                         >
-                          <span class="ion-ios-heart-empty"></span>
+                          <span className="ion-ios-heart-empty"></span>
                         </a>
                       </p>
                     </div>
@@ -536,56 +536,56 @@ function Listing() {
                 </div>
               </div>
               <div
-                class="col-md-6 col-lg-3 d-flex align-items-stretch"
+                className="col-md-6 col-lg-3 d-flex align-items-stretch"
                 data-aos="fade-up"
                 data-aos-delay="100"
                 data-aos-duration="1000"
               >
-                <div class="listing-wrap">
+                <div className="listing-wrap">
                 <a
   href="images/list-3.jpg"
-  className="img img-property d-flex align-items-center justify-content-center glightbox"
+  classNameName="img img-property d-flex align-items-center justify-content-center glightbox"
   style={{ backgroundImage: "url(assets/images/list-3.jpg)" }}
 >
-                    <div class="icon d-flex align-items-center justify-content-center">
-                      <span class="fa fa-search"></span>
+                    <div className="icon d-flex align-items-center justify-content-center">
+                      <span className="fa fa-search"></span>
                     </div>
                   </a>
-                  <div class="text text-center">
-                    <div class="icon d-flex align-items-center justify-content-center">
-                      <span class="flaticon-online-shopping"></span>
+                  <div className="text text-center">
+                    <div className="icon d-flex align-items-center justify-content-center">
+                      <span className="flaticon-online-shopping"></span>
                     </div>
-                    <span class="subheading">Shopping</span>
+                    <span className="subheading">Shopping</span>
                     <h3>
                       <a href="/">MS Center Mall of Asia</a>
                     </h3>
-                    <ul class="">
+                    <ul className="">
                       <li>
                         <p>
-                          <span class="ion-ios-pin"></span> Suite 721 New York
+                          <span className="ion-ios-pin"></span> Suite 721 New York
                           NY 10016
                         </p>
                       </li>
                       <li>
                         <p>
-                          <span class="fa fa-phone"></span> +00 123 456 7890
+                          <span className="fa fa-phone"></span> +00 123 456 7890
                         </p>
                       </li>
                     </ul>
-                    <div class="info-wrap2 d-flex align-items-center">
-                      <p class="review">
-                        <span class="rev">
+                    <div className="info-wrap2 d-flex align-items-center">
+                      <p className="review">
+                        <span className="rev">
                           Review <small>5.0/5</small>
                         </span>{" "}
-                        <span class="ico ion-ios-star"></span>
+                        <span className="ico ion-ios-star"></span>
                         <small>(100)</small>
                       </p>
-                      <p class="heart">
+                      <p className="heart">
                         <a
                           href="/"
-                          class="d-flex align-items-center justify-content-center"
+                          className="d-flex align-items-center justify-content-center"
                         >
-                          <span class="ion-ios-heart-empty"></span>
+                          <span className="ion-ios-heart-empty"></span>
                         </a>
                       </p>
                     </div>
@@ -593,56 +593,56 @@ function Listing() {
                 </div>
               </div>
               <div
-                class="col-md-6 col-lg-3 d-flex align-items-stretch"
+                className="col-md-6 col-lg-3 d-flex align-items-stretch"
                 data-aos="fade-up"
                 data-aos-delay="100"
                 data-aos-duration="1000"
               >
-                <div class="listing-wrap">
+                <div className="listing-wrap">
                 <a
   href="images/list-4.jpg"
-  className="img img-property d-flex align-items-center justify-content-center glightbox"
+  classNameName="img img-property d-flex align-items-center justify-content-center glightbox"
   style={{ backgroundImage: "url(assets/images/list-4.jpg)" }}
 >
-                    <div class="icon d-flex align-items-center justify-content-center">
-                      <span class="fa fa-search"></span>
+                    <div className="icon d-flex align-items-center justify-content-center">
+                      <span className="fa fa-search"></span>
                     </div>
                   </a>
-                  <div class="text text-center">
-                    <div class="icon d-flex align-items-center justify-content-center">
-                      <span class="flaticon-food-and-drink"></span>
+                  <div className="text text-center">
+                    <div className="icon d-flex align-items-center justify-content-center">
+                      <span className="flaticon-food-and-drink"></span>
                     </div>
-                    <span class="subheading">Gym Fitness</span>
+                    <span className="subheading">Gym Fitness</span>
                     <h3>
                       <a href="/">Maxout Fitness Gym</a>
                     </h3>
-                    <ul class="">
+                    <ul className="">
                       <li>
                         <p>
-                          <span class="ion-ios-pin"></span> Suite 721 New York
+                          <span className="ion-ios-pin"></span> Suite 721 New York
                           NY 10016
                         </p>
                       </li>
                       <li>
                         <p>
-                          <span class="fa fa-phone"></span> +00 123 456 7890
+                          <span className="fa fa-phone"></span> +00 123 456 7890
                         </p>
                       </li>
                     </ul>
-                    <div class="info-wrap2 d-flex align-items-center">
-                      <p class="review">
-                        <span class="rev">
+                    <div className="info-wrap2 d-flex align-items-center">
+                      <p className="review">
+                        <span className="rev">
                           Review <small>5.0/5</small>
                         </span>{" "}
-                        <span class="ico ion-ios-star"></span>
+                        <span className="ico ion-ios-star"></span>
                         <small>(100)</small>
                       </p>
-                      <p class="heart">
+                      <p className="heart">
                         <a
                           href="/"
-                          class="d-flex align-items-center justify-content-center"
+                          className="d-flex align-items-center justify-content-center"
                         >
-                          <span class="ion-ios-heart-empty"></span>
+                          <span className="ion-ios-heart-empty"></span>
                         </a>
                       </p>
                     </div>
@@ -650,56 +650,56 @@ function Listing() {
                 </div>
               </div>
               <div
-                class="col-md-6 col-lg-3 d-flex align-items-stretch"
+                className="col-md-6 col-lg-3 d-flex align-items-stretch"
                 data-aos="fade-up"
                 data-aos-delay="200"
                 data-aos-duration="1000"
               >
-                <div class="listing-wrap">
+                <div className="listing-wrap">
                 <a
   href="images/list-5.jpg"
-  className="img img-property d-flex align-items-center justify-content-center glightbox"
+  classNameName="img img-property d-flex align-items-center justify-content-center glightbox"
   style={{ backgroundImage: "url(assets/images/list-5.jpg)" }}
 >
-                    <div class="icon d-flex align-items-center justify-content-center">
-                      <span class="fa fa-search"></span>
+                    <div className="icon d-flex align-items-center justify-content-center">
+                      <span className="fa fa-search"></span>
                     </div>
                   </a>
-                  <div class="text text-center">
-                    <div class="icon d-flex align-items-center justify-content-center">
-                      <span class="flaticon-food-and-drink"></span>
+                  <div className="text text-center">
+                    <div className="icon d-flex align-items-center justify-content-center">
+                      <span className="flaticon-food-and-drink"></span>
                     </div>
-                    <span class="subheading">Beauty</span>
+                    <span className="subheading">Beauty</span>
                     <h3>
                       <a href="/">Japanese Restaurant</a>
                     </h3>
-                    <ul class="">
+                    <ul className="">
                       <li>
                         <p>
-                          <span class="ion-ios-pin"></span> Suite 721 New York
+                          <span className="ion-ios-pin"></span> Suite 721 New York
                           NY 10016
                         </p>
                       </li>
                       <li>
                         <p>
-                          <span class="fa fa-phone"></span> +00 123 456 7890
+                          <span className="fa fa-phone"></span> +00 123 456 7890
                         </p>
                       </li>
                     </ul>
-                    <div class="info-wrap2 d-flex align-items-center">
-                      <p class="review">
-                        <span class="rev">
+                    <div className="info-wrap2 d-flex align-items-center">
+                      <p className="review">
+                        <span className="rev">
                           Review <small>5.0/5</small>
                         </span>{" "}
-                        <span class="ico ion-ios-star"></span>
+                        <span className="ico ion-ios-star"></span>
                         <small>(100)</small>
                       </p>
-                      <p class="heart">
+                      <p className="heart">
                         <a
                           href="/"
-                          class="d-flex align-items-center justify-content-center"
+                          className="d-flex align-items-center justify-content-center"
                         >
-                          <span class="ion-ios-heart-empty"></span>
+                          <span className="ion-ios-heart-empty"></span>
                         </a>
                       </p>
                     </div>
@@ -707,56 +707,56 @@ function Listing() {
                 </div>
               </div>
               <div
-                class="col-md-6 col-lg-3 d-flex align-items-stretch"
+                className="col-md-6 col-lg-3 d-flex align-items-stretch"
                 data-aos="fade-up"
                 data-aos-delay="200"
                 data-aos-duration="1000"
               >
-                <div class="listing-wrap">
+                <div className="listing-wrap">
                 <a
   href="images/list-6.jpg"
-  className="img img-property d-flex align-items-center justify-content-center glightbox"
+  classNameName="img img-property d-flex align-items-center justify-content-center glightbox"
   style={{ backgroundImage: "url(assets/images/list-6.jpg)" }}
 >
-                    <div class="icon d-flex align-items-center justify-content-center">
-                      <span class="fa fa-search"></span>
+                    <div className="icon d-flex align-items-center justify-content-center">
+                      <span className="fa fa-search"></span>
                     </div>
                   </a>
-                  <div class="text text-center">
-                    <div class="icon d-flex align-items-center justify-content-center">
-                      <span class="flaticon-review"></span>
+                  <div className="text text-center">
+                    <div className="icon d-flex align-items-center justify-content-center">
+                      <span className="flaticon-review"></span>
                     </div>
-                    <span class="subheading">Bar &amp; Club</span>
+                    <span className="subheading">Bar &amp; Club</span>
                     <h3>
                       <a href="/">Harbor Lights Hotel</a>
                     </h3>
-                    <ul class="">
+                    <ul className="">
                       <li>
                         <p>
-                          <span class="ion-ios-pin"></span> Suite 721 New York
+                          <span className="ion-ios-pin"></span> Suite 721 New York
                           NY 10016
                         </p>
                       </li>
                       <li>
                         <p>
-                          <span class="fa fa-phone"></span> +00 123 456 7890
+                          <span className="fa fa-phone"></span> +00 123 456 7890
                         </p>
                       </li>
                     </ul>
-                    <div class="info-wrap2 d-flex align-items-center">
-                      <p class="review">
-                        <span class="rev">
+                    <div className="info-wrap2 d-flex align-items-center">
+                      <p className="review">
+                        <span className="rev">
                           Review <small>5.0/5</small>
                         </span>{" "}
-                        <span class="ico ion-ios-star"></span>
+                        <span className="ico ion-ios-star"></span>
                         <small>(100)</small>
                       </p>
-                      <p class="heart">
+                      <p className="heart">
                         <a
                           href="/"
-                          class="d-flex align-items-center justify-content-center"
+                          className="d-flex align-items-center justify-content-center"
                         >
-                          <span class="ion-ios-heart-empty"></span>
+                          <span className="ion-ios-heart-empty"></span>
                         </a>
                       </p>
                     </div>
@@ -764,56 +764,56 @@ function Listing() {
                 </div>
               </div>
               <div
-                class="col-md-6 col-lg-3 d-flex align-items-stretch"
+                className="col-md-6 col-lg-3 d-flex align-items-stretch"
                 data-aos="fade-up"
                 data-aos-delay="200"
                 data-aos-duration="1000"
               >
-                <div class="listing-wrap">
+                <div className="listing-wrap">
                 <a
   href="images/list-7.jpg"
-  className="img img-property d-flex align-items-center justify-content-center glightbox"
+  classNameName="img img-property d-flex align-items-center justify-content-center glightbox"
   style={{ backgroundImage: "url(assets/images/list-7.jpg)" }}
 >
-                    <div class="icon d-flex align-items-center justify-content-center">
-                      <span class="fa fa-search"></span>
+                    <div className="icon d-flex align-items-center justify-content-center">
+                      <span className="fa fa-search"></span>
                     </div>
                   </a>
-                  <div class="text text-center">
-                    <div class="icon d-flex align-items-center justify-content-center">
-                      <span class="flaticon-online-shopping"></span>
+                  <div className="text text-center">
+                    <div className="icon d-flex align-items-center justify-content-center">
+                      <span className="flaticon-online-shopping"></span>
                     </div>
-                    <span class="subheading">Circus</span>
+                    <span className="subheading">Circus</span>
                     <h3>
                       <a href="/">MS Center Mall of Asia</a>
                     </h3>
-                    <ul class="">
+                    <ul className="">
                       <li>
                         <p>
-                          <span class="ion-ios-pin"></span> Suite 721 New York
+                          <span className="ion-ios-pin"></span> Suite 721 New York
                           NY 10016
                         </p>
                       </li>
                       <li>
                         <p>
-                          <span class="fa fa-phone"></span> +00 123 456 7890
+                          <span className="fa fa-phone"></span> +00 123 456 7890
                         </p>
                       </li>
                     </ul>
-                    <div class="info-wrap2 d-flex align-items-center">
-                      <p class="review">
-                        <span class="rev">
+                    <div className="info-wrap2 d-flex align-items-center">
+                      <p className="review">
+                        <span className="rev">
                           Review <small>5.0/5</small>
                         </span>{" "}
-                        <span class="ico ion-ios-star"></span>
+                        <span className="ico ion-ios-star"></span>
                         <small>(100)</small>
                       </p>
-                      <p class="heart">
+                      <p className="heart">
                         <a
                           href="/"
-                          class="d-flex align-items-center justify-content-center"
+                          className="d-flex align-items-center justify-content-center"
                         >
-                          <span class="ion-ios-heart-empty"></span>
+                          <span className="ion-ios-heart-empty"></span>
                         </a>
                       </p>
                     </div>
@@ -821,56 +821,56 @@ function Listing() {
                 </div>
               </div>
               <div
-                class="col-md-6 col-lg-3 d-flex align-items-stretch"
+                className="col-md-6 col-lg-3 d-flex align-items-stretch"
                 data-aos="fade-up"
                 data-aos-delay="200"
                 data-aos-duration="1000"
               >
-                <div class="listing-wrap">
+                <div className="listing-wrap">
                 <a
   href="images/list-8.jpg"
-  className="img img-property d-flex align-items-center justify-content-center glightbox"
+  classNameName="img img-property d-flex align-items-center justify-content-center glightbox"
   style={{ backgroundImage: "url(assets/images/list-8.jpg)" }}
 >
-                    <div class="icon d-flex align-items-center justify-content-center">
-                      <span class="fa fa-search"></span>
+                    <div className="icon d-flex align-items-center justify-content-center">
+                      <span className="fa fa-search"></span>
                     </div>
                   </a>
-                  <div class="text text-center">
-                    <div class="icon d-flex align-items-center justify-content-center">
-                      <span class="flaticon-food-and-drink"></span>
+                  <div className="text text-center">
+                    <div className="icon d-flex align-items-center justify-content-center">
+                      <span className="flaticon-food-and-drink"></span>
                     </div>
-                    <span class="subheading">Theater</span>
+                    <span className="subheading">Theater</span>
                     <h3>
                       <a href="/">Maxout Fitness Gym</a>
                     </h3>
-                    <ul class="">
+                    <ul className="">
                       <li>
                         <p>
-                          <span class="ion-ios-pin"></span> Suite 721 New York
+                          <span className="ion-ios-pin"></span> Suite 721 New York
                           NY 10016
                         </p>
                       </li>
                       <li>
                         <p>
-                          <span class="fa fa-phone"></span> +00 123 456 7890
+                          <span className="fa fa-phone"></span> +00 123 456 7890
                         </p>
                       </li>
                     </ul>
-                    <div class="info-wrap2 d-flex align-items-center">
-                      <p class="review">
-                        <span class="rev">
+                    <div className="info-wrap2 d-flex align-items-center">
+                      <p className="review">
+                        <span className="rev">
                           Review <small>5.0/5</small>
                         </span>{" "}
-                        <span class="ico ion-ios-star"></span>
+                        <span className="ico ion-ios-star"></span>
                         <small>(100)</small>
                       </p>
-                      <p class="heart">
+                      <p className="heart">
                         <a
                           href="/"
-                          class="d-flex align-items-center justify-content-center"
+                          className="d-flex align-items-center justify-content-center"
                         >
-                          <span class="ion-ios-heart-empty"></span>
+                          <span className="ion-ios-heart-empty"></span>
                         </a>
                       </p>
                     </div>
@@ -878,56 +878,56 @@ function Listing() {
                 </div>
               </div>
               <div
-                class="col-md-6 col-lg-3 d-flex align-items-stretch"
+                className="col-md-6 col-lg-3 d-flex align-items-stretch"
                 data-aos="fade-up"
                 data-aos-delay="300"
                 data-aos-duration="1000"
               >
-                <div class="listing-wrap">
+                <div className="listing-wrap">
                 <a
   href="images/list-9.jpg"
-  className="img img-property d-flex align-items-center justify-content-center glightbox"
+  classNameName="img img-property d-flex align-items-center justify-content-center glightbox"
   style={{ backgroundImage: "url(assets/images/list-9.jpg)" }}
 >
-                    <div class="icon d-flex align-items-center justify-content-center">
-                      <span class="fa fa-search"></span>
+                    <div className="icon d-flex align-items-center justify-content-center">
+                      <span className="fa fa-search"></span>
                     </div>
                   </a>
-                  <div class="text text-center">
-                    <div class="icon d-flex align-items-center justify-content-center">
-                      <span class="flaticon-food-and-drink"></span>
+                  <div className="text text-center">
+                    <div className="icon d-flex align-items-center justify-content-center">
+                      <span className="flaticon-food-and-drink"></span>
                     </div>
-                    <span class="subheading">Theater</span>
+                    <span className="subheading">Theater</span>
                     <h3>
                       <a href="/">Japanese Restaurant</a>
                     </h3>
-                    <ul class="">
+                    <ul className="">
                       <li>
                         <p>
-                          <span class="ion-ios-pin"></span> Suite 721 New York
+                          <span className="ion-ios-pin"></span> Suite 721 New York
                           NY 10016
                         </p>
                       </li>
                       <li>
                         <p>
-                          <span class="fa fa-phone"></span> +00 123 456 7890
+                          <span className="fa fa-phone"></span> +00 123 456 7890
                         </p>
                       </li>
                     </ul>
-                    <div class="info-wrap2 d-flex align-items-center">
-                      <p class="review">
-                        <span class="rev">
+                    <div className="info-wrap2 d-flex align-items-center">
+                      <p className="review">
+                        <span className="rev">
                           Review <small>5.0/5</small>
                         </span>{" "}
-                        <span class="ico ion-ios-star"></span>
+                        <span className="ico ion-ios-star"></span>
                         <small>(100)</small>
                       </p>
-                      <p class="heart">
+                      <p className="heart">
                         <a
                           href="/"
-                          class="d-flex align-items-center justify-content-center"
+                          className="d-flex align-items-center justify-content-center"
                         >
-                          <span class="ion-ios-heart-empty"></span>
+                          <span className="ion-ios-heart-empty"></span>
                         </a>
                       </p>
                     </div>
@@ -935,56 +935,56 @@ function Listing() {
                 </div>
               </div>
               <div
-                class="col-md-6 col-lg-3 d-flex align-items-stretch"
+                className="col-md-6 col-lg-3 d-flex align-items-stretch"
                 data-aos="fade-up"
                 data-aos-delay="300"
                 data-aos-duration="1000"
               >
-                <div class="listing-wrap">
+                <div className="listing-wrap">
                 <a
   href="images/list-10.jpg"
-  className="img img-property d-flex align-items-center justify-content-center glightbox"
+  classNameName="img img-property d-flex align-items-center justify-content-center glightbox"
   style={{ backgroundImage: "url(assets/images/list-10.jpg)" }}
 >
-                    <div class="icon d-flex align-items-center justify-content-center">
-                      <span class="fa fa-search"></span>
+                    <div className="icon d-flex align-items-center justify-content-center">
+                      <span className="fa fa-search"></span>
                     </div>
                   </a>
-                  <div class="text text-center">
-                    <div class="icon d-flex align-items-center justify-content-center">
-                      <span class="flaticon-review"></span>
+                  <div className="text text-center">
+                    <div className="icon d-flex align-items-center justify-content-center">
+                      <span className="flaticon-review"></span>
                     </div>
-                    <span class="subheading">Sports</span>
+                    <span className="subheading">Sports</span>
                     <h3>
                       <a href="/">Harbor Lights Hotel</a>
                     </h3>
-                    <ul class="">
+                    <ul className="">
                       <li>
                         <p>
-                          <span class="ion-ios-pin"></span> Suite 721 New York
+                          <span className="ion-ios-pin"></span> Suite 721 New York
                           NY 10016
                         </p>
                       </li>
                       <li>
                         <p>
-                          <span class="fa fa-phone"></span> +00 123 456 7890
+                          <span className="fa fa-phone"></span> +00 123 456 7890
                         </p>
                       </li>
                     </ul>
-                    <div class="info-wrap2 d-flex align-items-center">
-                      <p class="review">
-                        <span class="rev">
+                    <div className="info-wrap2 d-flex align-items-center">
+                      <p className="review">
+                        <span className="rev">
                           Review <small>5.0/5</small>
                         </span>{" "}
-                        <span class="ico ion-ios-star"></span>
+                        <span className="ico ion-ios-star"></span>
                         <small>(100)</small>
                       </p>
-                      <p class="heart">
+                      <p className="heart">
                         <a
                           href="/"
-                          class="d-flex align-items-center justify-content-center"
+                          className="d-flex align-items-center justify-content-center"
                         >
-                          <span class="ion-ios-heart-empty"></span>
+                          <span className="ion-ios-heart-empty"></span>
                         </a>
                       </p>
                     </div>
@@ -992,56 +992,56 @@ function Listing() {
                 </div>
               </div>
               <div
-                class="col-md-6 col-lg-3 d-flex align-items-stretch"
+                className="col-md-6 col-lg-3 d-flex align-items-stretch"
                 data-aos="fade-up"
                 data-aos-delay="300"
                 data-aos-duration="1000"
               >
-                <div class="listing-wrap">
+                <div className="listing-wrap">
                 <a
   href="images/list-11.jpg"
-  className="img img-property d-flex align-items-center justify-content-center glightbox"
+  classNameName="img img-property d-flex align-items-center justify-content-center glightbox"
   style={{ backgroundImage: "url(assets/images/list-11.jpg)" }}
 >
-                    <div class="icon d-flex align-items-center justify-content-center">
-                      <span class="fa fa-search"></span>
+                    <div className="icon d-flex align-items-center justify-content-center">
+                      <span className="fa fa-search"></span>
                     </div>
                   </a>
-                  <div class="text text-center">
-                    <div class="icon d-flex align-items-center justify-content-center">
-                      <span class="flaticon-online-shopping"></span>
+                  <div className="text text-center">
+                    <div className="icon d-flex align-items-center justify-content-center">
+                      <span className="flaticon-online-shopping"></span>
                     </div>
-                    <span class="subheading">Games</span>
+                    <span className="subheading">Games</span>
                     <h3>
                       <a href="/">MS Center Mall of Asia</a>
                     </h3>
-                    <ul class="">
+                    <ul className="">
                       <li>
                         <p>
-                          <span class="ion-ios-pin"></span> Suite 721 New York
+                          <span className="ion-ios-pin"></span> Suite 721 New York
                           NY 10016
                         </p>
                       </li>
                       <li>
                         <p>
-                          <span class="fa fa-phone"></span> +00 123 456 7890
+                          <span className="fa fa-phone"></span> +00 123 456 7890
                         </p>
                       </li>
                     </ul>
-                    <div class="info-wrap2 d-flex align-items-center">
-                      <p class="review">
-                        <span class="rev">
+                    <div className="info-wrap2 d-flex align-items-center">
+                      <p className="review">
+                        <span className="rev">
                           Review <small>5.0/5</small>
                         </span>{" "}
-                        <span class="ico ion-ios-star"></span>
+                        <span className="ico ion-ios-star"></span>
                         <small>(100)</small>
                       </p>
-                      <p class="heart">
+                      <p className="heart">
                         <a
                           href="/"
-                          class="d-flex align-items-center justify-content-center"
+                          className="d-flex align-items-center justify-content-center"
                         >
-                          <span class="ion-ios-heart-empty"></span>
+                          <span className="ion-ios-heart-empty"></span>
                         </a>
                       </p>
                     </div>
@@ -1049,56 +1049,56 @@ function Listing() {
                 </div>
               </div>
               <div
-                class="col-md-6 col-lg-3 d-flex align-items-stretch"
+                className="col-md-6 col-lg-3 d-flex align-items-stretch"
                 data-aos="fade-up"
                 data-aos-delay="300"
                 data-aos-duration="1000"
               >
-                <div class="listing-wrap">
+                <div className="listing-wrap">
                 <a
   href="images/list-12.jpg"
-  className="img img-property d-flex align-items-center justify-content-center glightbox"
+  classNameName="img img-property d-flex align-items-center justify-content-center glightbox"
   style={{ backgroundImage: "url(assets/images/list-12.jpg)" }}
 >
-                    <div class="icon d-flex align-items-center justify-content-center">
-                      <span class="fa fa-search"></span>
+                    <div className="icon d-flex align-items-center justify-content-center">
+                      <span className="fa fa-search"></span>
                     </div>
                   </a>
-                  <div class="text text-center">
-                    <div class="icon d-flex align-items-center justify-content-center">
-                      <span class="flaticon-food-and-drink"></span>
+                  <div className="text text-center">
+                    <div className="icon d-flex align-items-center justify-content-center">
+                      <span className="flaticon-food-and-drink"></span>
                     </div>
-                    <span class="subheading">Places</span>
+                    <span className="subheading">Places</span>
                     <h3>
                       <a href="/">Maxout Fitness Gym</a>
                     </h3>
-                    <ul class="">
+                    <ul className="">
                       <li>
                         <p>
-                          <span class="ion-ios-pin"></span> Suite 721 New York
+                          <span className="ion-ios-pin"></span> Suite 721 New York
                           NY 10016
                         </p>
                       </li>
                       <li>
                         <p>
-                          <span class="fa fa-phone"></span> +00 123 456 7890
+                          <span className="fa fa-phone"></span> +00 123 456 7890
                         </p>
                       </li>
                     </ul>
-                    <div class="info-wrap2 d-flex align-items-center">
-                      <p class="review">
-                        <span class="rev">
+                    <div className="info-wrap2 d-flex align-items-center">
+                      <p className="review">
+                        <span className="rev">
                           Review <small>5.0/5</small>
                         </span>{" "}
-                        <span class="ico ion-ios-star"></span>
+                        <span className="ico ion-ios-star"></span>
                         <small>(100)</small>
                       </p>
-                      <p class="heart">
+                      <p className="heart">
                         <a
                           href="/"
-                          class="d-flex align-items-center justify-content-center"
+                          className="d-flex align-items-center justify-content-center"
                         >
-                          <span class="ion-ios-heart-empty"></span>
+                          <span className="ion-ios-heart-empty"></span>
                         </a>
                       </p>
                     </div>
@@ -1106,14 +1106,14 @@ function Listing() {
                 </div>
               </div>
             </div>
-            <div class="row mt-5">
-              <div class="col text-center">
-                <div class="block-27">
+            <div className="row mt-5">
+              <div className="col text-center">
+                <div className="block-27">
                   <ul>
                     <li>
                       <a href="/">&lt;</a>
                     </li>
-                    <li class="active">
+                    <li className="active">
                       <span>1</span>
                     </li>
                     <li>
@@ -1137,17 +1137,17 @@ function Listing() {
             </div>
           </div>
         </section>
-        <footer class="ftco-footer">
-          <div class="container-xl">
-            <div class="row mb-5 pb-5 justify-content-between">
-              <div class="col-md-6 col-lg">
-                <div class="ftco-footer-widget mb-4">
-                  <h2 class="ftco-heading-2 logo d-flex">
+        <footer className="ftco-footer">
+          <div className="container-xl">
+            <div className="row mb-5 pb-5 justify-content-between">
+              <div className="col-md-6 col-lg">
+                <div className="ftco-footer-widget mb-4">
+                  <h2 className="ftco-heading-2 logo d-flex">
                     <a
-                      class="navbar-brand align-items-center"
+                      className="navbar-brand align-items-center"
                       href="index.html"
                     >
-                      <span class="">
+                      <span className="">
                         Directone <small>Directory and Listing</small>
                       </span>
                     </a>
@@ -1156,150 +1156,150 @@ function Listing() {
                     A small river named Duden flows by their place and supplies
                     it with the necessary regelialia.
                   </p>
-                  <ul class="ftco-footer-social list-unstyled mt-2">
+                  <ul className="ftco-footer-social list-unstyled mt-2">
                     <li>
                       <a href="/">
-                        <span class="fa fa-twitter"></span>
+                        <span className="fa fa-twitter"></span>
                       </a>
                     </li>
                     <li>
                       <a href="/">
-                        <span class="fa fa-facebook"></span>
+                        <span className="fa fa-facebook"></span>
                       </a>
                     </li>
                     <li>
                       <a href="/">
-                        <span class="fa fa-instagram"></span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-2">
-                <div class="ftco-footer-widget mb-4">
-                  <h2 class="ftco-heading-2">Explore</h2>
-                  <ul class="list-unstyled">
-                    <li>
-                      <a href="/">
-                        <span class="fa fa-chevron-right mr-2"></span>About Us
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/">
-                        <span class="fa fa-chevron-right mr-2"></span>Account
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/">
-                        <span class="fa fa-chevron-right mr-2"></span>Listing
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/">
-                        <span class="fa fa-chevron-right mr-2"></span>Pricing
-                        Packages
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/">
-                        <span class="fa fa-chevron-right mr-2"></span>Pricing
-                        Packages
+                        <span className="fa fa-instagram"></span>
                       </a>
                     </li>
                   </ul>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-2">
-                <div class="ftco-footer-widget mb-4">
-                  <h2 class="ftco-heading-2">Quick Links</h2>
-                  <ul class="list-unstyled">
+              <div className="col-md-6 col-lg-2">
+                <div className="ftco-footer-widget mb-4">
+                  <h2 className="ftco-heading-2">Explore</h2>
+                  <ul className="list-unstyled">
                     <li>
                       <a href="/">
-                        <span class="fa fa-chevron-right mr-2"></span>Contact Us
+                        <span className="fa fa-chevron-right mr-2"></span>About Us
                       </a>
                     </li>
                     <li>
                       <a href="/">
-                        <span class="fa fa-chevron-right mr-2"></span>Terms
+                        <span className="fa fa-chevron-right mr-2"></span>Account
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/">
+                        <span className="fa fa-chevron-right mr-2"></span>Listing
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/">
+                        <span className="fa fa-chevron-right mr-2"></span>Pricing
+                        Packages
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/">
+                        <span className="fa fa-chevron-right mr-2"></span>Pricing
+                        Packages
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-2">
+                <div className="ftco-footer-widget mb-4">
+                  <h2 className="ftco-heading-2">Quick Links</h2>
+                  <ul className="list-unstyled">
+                    <li>
+                      <a href="/">
+                        <span className="fa fa-chevron-right mr-2"></span>Contact Us
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/">
+                        <span className="fa fa-chevron-right mr-2"></span>Terms
                         &amp; Conditions
                       </a>
                     </li>
                     <li>
                       <a href="/">
-                        <span class="fa fa-chevron-right mr-2"></span>Privacy
+                        <span className="fa fa-chevron-right mr-2"></span>Privacy
                       </a>
                     </li>
                     <li>
                       <a href="/">
-                        <span class="fa fa-chevron-right mr-2"></span>Feedbacks
+                        <span className="fa fa-chevron-right mr-2"></span>Feedbacks
                       </a>
                     </li>
                   </ul>
                 </div>
               </div>
-              <div class="col-md-6 col-lg-2">
-                <div class="ftco-footer-widget mb-4">
-                  <h2 class="ftco-heading-2">Categories</h2>
-                  <ul class="list-unstyled">
+              <div className="col-md-6 col-lg-2">
+                <div className="ftco-footer-widget mb-4">
+                  <h2 className="ftco-heading-2">Categories</h2>
+                  <ul className="list-unstyled">
                     <li>
                       <a href="/">
-                        <span class="fa fa-chevron-right mr-2"></span>Food &amp;
+                        <span className="fa fa-chevron-right mr-2"></span>Food &amp;
                         Drinks
                       </a>
                     </li>
                     <li>
                       <a href="/">
-                        <span class="fa fa-chevron-right mr-2"></span>Hotels
+                        <span className="fa fa-chevron-right mr-2"></span>Hotels
                       </a>
                     </li>
                     <li>
                       <a href="/">
-                        <span class="fa fa-chevron-right mr-2"></span>Shopping
+                        <span className="fa fa-chevron-right mr-2"></span>Shopping
                       </a>
                     </li>
                     <li>
                       <a href="/">
-                        <span class="fa fa-chevron-right mr-2"></span>Beauty
+                        <span className="fa fa-chevron-right mr-2"></span>Beauty
                       </a>
                     </li>
                     <li>
                       <a href="/">
-                        <span class="fa fa-chevron-right mr-2"></span>Fitness
+                        <span className="fa fa-chevron-right mr-2"></span>Fitness
                       </a>
                     </li>
                     <li>
                       <a href="/">
-                        <span class="fa fa-chevron-right mr-2"></span>Bar &amp;
+                        <span className="fa fa-chevron-right mr-2"></span>Bar &amp;
                         Club
                       </a>
                     </li>
                   </ul>
                 </div>
               </div>
-              <div class="col-md-6 col-lg">
-                <div class="ftco-footer-widget mb-4">
-                  <h2 class="ftco-heading-2">Have a Questions?</h2>
-                  <div class="block-23 mb-3">
+              <div className="col-md-6 col-lg">
+                <div className="ftco-footer-widget mb-4">
+                  <h2 className="ftco-heading-2">Have a Questions?</h2>
+                  <div className="block-23 mb-3">
                     <ul>
                       <li>
-                        <span class="icon fa fa-map marker"></span>
-                        <span class="text">
+                        <span className="icon fa fa-map marker"></span>
+                        <span className="text">
                           203 Fake St. Mountain View, San Francisco, California,
                           USA
                         </span>
                       </li>
                       <li>
                         <a href="/">
-                          <span class="icon fa fa-phone"></span>
-                          <span class="text">+ 9988776655</span>
+                          <span className="icon fa fa-phone"></span>
+                          <span className="text">+ 9988776655</span>
                         </a>
                       </li>
                       <li>
                         <a href="/">
-                          <span class="icon fa fa-paper-plane pr-4"></span>
-                          <span class="text">
+                          <span className="icon fa fa-paper-plane pr-4"></span>
+                          <span className="text">
                             <span
-                              class="__cf_email__"
+                              className="__cf_email__"
                               data-cfemail="2e474048416e57415b5c4a41434f4740004d4143"
                             >
                               Ishankhaliwala312@gmail.com
